@@ -1,0 +1,16 @@
+Realizar un algoritmo en pseudocódigo para resolver el siguiente problema: 
+suponga que un individuo desea invertir un capital en un banco y desea saber
+cuánto dinero ganara después de un mes si el banco le paga a razón de 2% 
+mensual. En cada ejercicio determinar las variables y/o constantes involucradas. 
+
+(variable) (Int) Inversión = “Ingrese la cantidad de dinero que desea invertir”
+
+
+(Constante) (float) T = 0,02 
+
+
+Tiempo (int) M= “Ingrese la cantidad de meses”
+Ganancia = Inversión*T*M
+
+Imprimir por pantalla “Usted ganará con su inversión de ”, Inversión, “ ”, Ganancia
+

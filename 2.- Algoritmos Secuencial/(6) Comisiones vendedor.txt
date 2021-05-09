@@ -1,0 +1,58 @@
+Realizar un algoritmo en pseudocódigo para resolver el
+siguiente problema: Un vendedor recibe un sueldo base
+mas un 10% de comisión de sus ventas, el vendedor desea 
+saber cuanto dinero obtendrá por concepto de comisiones 
+por 3 ventas que realiza en el mes y el total que recibirá
+en el mes tomando en cuenta su sueldo base y comisiones. 
+
+Variables
+
+Sueldobase= float
+Cantidadventas= integer
+Comisión = float
+Totalsueldo = float
+
+Pseudocódigo
+Escribir “Ingrese sueldobase”
+Leer= sueldobase
+Escribir “Ingrese cantidad de ventas”
+Leer = cantidadventas
+
+Comisión = cantidadventas*0,1
+Totalsueldo = sueldobase + comisión
+Escribir “La comisión es ”, comision
+Escribir “El sueldo total es ”, totalsueldo
+
+
+
+Otra forma
+
+Variables
+Int Sueldo Base
+Int Venta1
+Int Venta2
+Int Venta3
+Int SumaVentas
+Int ComisionVenta
+Int SueldoVentas
+
+Constante
+float comision = 0.1
+
+Escribir ("ingrese sueldo base")
+Leer SueldoBase
+Escribir("Ingrese Venta 1")
+Leer Venta 1
+Escribir("Ingrese Venta 2")
+Leer Venta 2
+Escribir("Ingrese Venta 3")
+Leer Venta 3
+
+Calcular comision de ventas
+SumaVentas = Venta1 + Venta2 + Venta3
+ComisionVenta = SumaVentas * comision
+SueldoVentas = SueldoBase + ComisionVentas
+
+Escribir("Su comision por las ventas ingresadas es" . ComisionVenta)
+Escribir("Su sueldo quedaria en " . SueldoVentas)
+

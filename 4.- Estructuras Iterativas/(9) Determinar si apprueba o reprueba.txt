@@ -1,0 +1,30 @@
+Ejercicio N° 9
+
+Calcular el promedio de N notas ingresas, y determinar si aprueba o reprueba.
+
+
+Promedio = 0
+Suma = 0
+Cantidad 
+Numero
+N = 1 
+
+Escribir (“¿Cuántos números va a ingresar?”)
+Leer Cantidad
+
+Mientras (N = 1 ; N <= Cantidad; N ++ )
+	Escribir (“Ingrese Números: ”)
+	Leer Numero
+	Suma =  Suma + Numero
+	Promedio = Promedio + suma/cantidad
+
+	Si Promedio>=4.0
+		Escribir (“El promedio de notas es: ”, promedio, “ Por lo tanto, uste ha Aprobado el curso”)
+	Sino
+		Escribir (“El promedio de notas es: ”, promedio, “ Por lo tanto, uste ha Reprobado el curso”)
+
+	Fin si
+
+
+Fin Mientras
+

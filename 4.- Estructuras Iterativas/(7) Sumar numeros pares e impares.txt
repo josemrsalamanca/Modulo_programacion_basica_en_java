@@ -1,0 +1,27 @@
+Ejercicio N°7
+
+Sumar los números pares e impares ingresados por un usuario y contar la cantidad de números pares e impares (la cantidad de números que se ingresan deben ser determinadas por el usuario).
+
+Num_tope
+Num
+Suma = 0
+Suma_impar= 0
+Conteo_par = 0
+Conteo_impar = 0
+
+Escribir(“Ingrese cuantos números desea ingresar: ”)
+Leer Num_tope
+
+Mientras Num_tope >= 0
+Escribir(“Ingrese número par o impar para ser sumado”) 
+Leer Num
+
+	Si Num % 2 == 0 
+		Suma =  Suma + Num
+		Conteo_par =  Conteo_par + 1
+	Sino
+		Suma_impar = Suma_impar + Num
+		Conteo_impar = Conteo_impar + 1
+Fin Mientras
+Escribir “La suma de los números pares es: ”, Suma, “ La cantidad de números pares es: “,Conteo_par”
+Escribir “La suma de los números impares es: ”, Suma_impar, “ La cantidad de números impares es: “,Conteo_impar”

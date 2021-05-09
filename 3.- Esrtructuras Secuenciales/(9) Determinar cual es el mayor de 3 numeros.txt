@@ -1,0 +1,28 @@
+Ejercicio N°9: Que permita determinar cual es el mayor de 3 números ingresados.
+
+Variables
+(Int) num1
+(Int) num2
+(Int) num3
+
+Algoritmo
+Escribe ("Ingrese su primer numero: ")
+Leer num1
+
+Escribe ("Ingrese su segundo numero")
+leer num2
+
+Escribe ("Ingrese su tercer numero")
+leer num3
+
+Si num1 == num2 y num1 == num3 
+Escribir “No hay número mayor”
+
+Si num1>num2 y num2>num3 
+Escribir “El número mayor es ”, num1
+
+Si num1 < num2 y num2 <num3}
+Escribir “El número mayor es ”, num3
+
+Sino
+Escribir “El número mayor es ”, num2

@@ -1,0 +1,25 @@
+Ejercicio N°6
+
+Sumar solo los números pares ingresados por un usuario (la cantidad de números que se ingresan deben ser determinadas por el usuario)
+
+Suma = 0 
+Ingresado
+Cantidad 
+I = 1
+
+Escribir “Ingresar cantidad de números: “
+Leer Cantidad
+Para (I = 1; I <= Cantidad; i ++)
+Escribir “Ingresar números a sumar: 
+Leer Ingresado
+
+Mientras (Ingresado % 2 == 0) 
+		Suma = Suma + Ingresado  
+		I = I +1 
+		Escribir “La suma de los números pares ingresados es: ”, suma
+		Fin si
+Fin Mientras
+
+Fin Para
+
+

@@ -1,0 +1,24 @@
+Ejercicio N°11
+
+Mostar por pantalla los números de 1 a 100 y de 100 a 1. 
+
+Forma 1: 
+Para (i=1; i <=100; i++) hacer
+	Escribir i
+Para (j=100; i <=1; i--) hacer
+	Escribir j
+Fin para
+
+
+Forma 2:  
+I=1
+Hacer 	
+	Escribir i
+	I= i + 1
+Mientras (i<=5)
+
+J=100
+Hacer 
+	Escribir j
+	J= j -1
+Mientras (j>=1)

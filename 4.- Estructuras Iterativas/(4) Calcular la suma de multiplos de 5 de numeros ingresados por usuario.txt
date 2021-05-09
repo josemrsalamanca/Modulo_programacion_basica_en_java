@@ -1,0 +1,22 @@
+Ejercicio N°4
+
+Calcular la suma de N números ingresados por un usuario que sean múltiplos de 5 (La cantidad debe ser ingresado por el mismo usuario).
+
+Suma = 0
+Cantidad 
+Ingresado
+I = 1
+
+Escribir “¿Cuántos números va a ingresar: ”
+Leer Cantidad
+
+Para (I = 1; I <= Cantidad; i ++)
+Escribir “Ingresar números: ”
+Leer Ingresado
+	Mientras (Ingresado / 5 == 0)
+		Suma = Suma + Ingresado
+		I = I + 1
+		Escribir “La suma de los múltiplos de 5 de los números ingresados por usted es: ”, suma
+	Fin Mientras
+Fin Para
+

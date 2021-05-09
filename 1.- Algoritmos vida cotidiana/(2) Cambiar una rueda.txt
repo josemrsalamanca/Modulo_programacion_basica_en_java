@@ -1,0 +1,18 @@
+Entradas: 1 persona, 1 gata, 1 rueda, 1 llave de cruz
+
+
+Procesos
+•	Reunir herramientas.
+•	Usar llave de cruz para soltar tuercas.
+•	Accionar gata.
+•	Poner rueda averiada bajo el auto por seguridad.
+•	Sacar rueda.
+•	Poner rueda.
+•	Sacar rueda averiada.
+•	Sacar gata.
+•	Apretar tuercas.
+•	Guardar herramientas.
+
+
+Salida: Auto reparado
+

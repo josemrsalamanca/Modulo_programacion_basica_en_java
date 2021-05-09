@@ -1,0 +1,33 @@
+Identificar variables, constantes, tipos de dato en java que puede contener el algoritmo de la compra en la tienda virtual.
+
+Entradas: 
+•	Medio de pago 
+•	Datos del usuario
+
+
+Procesos
+•	Ingresar a tienda virtual de producto deseado
+•	Agregar productos al carrito de compra
+•	Ingresar al carro de compra
+•	Ver si el despacho es a domicilio o retiro en tienda mas cercana 
+•	Si es despacho agregar datos del domicilio donde se recibira el producto
+•	Agregar medio de pago
+•	Aceptar fecha de entrega y confirmar pago
+•	Compra realizada
+
+
+Salida: Compra realizada en tienda virtual
+
+
+Variables 
+•	(String) Usuario
+•	(String) Descripción del producto
+•	(Int/float) Valor del producto
+•	(String) Dirección 
+•	(String) Correo
+•	(String) Medio de pago
+
+
+Constantes
+•	IVA
+•	% de descuento del producto

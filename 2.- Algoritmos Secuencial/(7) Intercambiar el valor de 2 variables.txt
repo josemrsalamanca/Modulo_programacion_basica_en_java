@@ -1,0 +1,44 @@
+Realizar un algoritmo que intercambie el valor de 2 variables.
+ Por ejemplo: Al inicio del problema los valores de las variables
+ son A=2 y B=3. Luego al final del algoritmo A=3 y B=2. 
+
+Variables 
+A=2, int
+B=3, int
+AuxA, int
+AuxB, int
+
+Pseudo Código 
+Escribir “La variable A vale “, A
+Escribir “La variable B vale ”, B
+
+AuxA = B
+AuxB = A
+
+A = AuxA
+B = AuxB
+
+Escribir “El valor de A ahora es ”, A
+Escribir “El valor de B ahora es ”, B 
+
+
+
+
+Otra forma 
+
+Variables
+Int A=2 
+Int B=3
+
+Pseudo Código
+
+A= A + B
+B= A – B
+A= A – B
+
+Escribir “El valor de A es ”, A
+Escribir “El valor de B es ”, B
+
+ 
+
+

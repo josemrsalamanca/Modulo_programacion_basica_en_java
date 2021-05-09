@@ -1,0 +1,18 @@
+Ejercicio N°12
+
+Sumar solo los números pares ingresados por un usuario (la cantidad de números que se ingresan deben ser determinados por el usuario).
+
+(int) C = cantidad de números
+(int) S = 0 suma acumulada
+(int) N = numero ingresado
+(int) I = 1
+
+Escribir “Cantidad de números a ingresar”
+Leer C
+Escribir “Ingrese número”
+Leer N
+I = 1
+Mientras (I <= C)
+Si N % 2 = 0 entonces
+S = S + N 
+Escribir “La suma de los números pares es ”, S

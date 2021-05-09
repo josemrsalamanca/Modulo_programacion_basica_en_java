@@ -1,0 +1,17 @@
+Entradas: Algodón, agua, toallitaa húmedas, pañales, talco, mudador y body de repuesto.
+
+
+Procesos
+•	Inspeccionar si él bebe requiere cambio, si es necesario se reúnen elementos de entrada.
+•	Retirar pañal. 
+•	Limpiar con toallitas el popin.
+•	Secar.
+•	Poner Talco.
+•	Poner pañal nuevo.
+•	Botar pañal a basura.
+•	Guardar implementos.
+
+
+Salida: Bebe cambiado 
+
+

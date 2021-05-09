@@ -1,0 +1,39 @@
+Crear un algoritmo que permita realizar una liquidación de sueldo, identificar entradas, salida, procesos, variables, constantes y tipos de datos.
+
+Entradas: Fecha, nombre, sistema de AFP, sistema de salud, Rut, días trabajados, valor día y ausencias.  
+
+
+Procesos 
+•	Ingresar nombre del trabajador
+•	Ingresar Rut
+•	Ingresar Cargo
+•	Ingresar Tipo de funcionario
+•	Ingresar Fecha de contratación
+•	Ingresar sucursal donde trabaja
+•	Ingresar AFP
+•	Ingresar Sistema de salud
+•	Ingresar Días trabajados
+•	Multiplicar el sueldo base por los días trabajados y agregar al ítem haberes
+•	Agregar al ítem haberes comisión individual
+•	Agregar al ítem de haberes gratificación
+•	Agregar al ítem de haberes semana corrida
+•	Descontar leyes sociales 
+•	Calcular remuneración liquida sumando sueldo según días trabajados + comisión individual + gratificaciones + semana corrida – leyes sociales (afp, salud y seguro de cesantía) 
+
+Salida: liquidación del trabajador
+
+
+Variables: 
+•	(int) Horas extras
+•	(int) Valor hora por tipo de funcionario
+•	(float) Horas trabajadas
+•	(string) Rut
+•	(float) Atrasos
+•	(float) Gratificaciones
+•	(boolean) Semana corrida
+
+
+Constantes: 
+•	Descuento Fonasa
+•	Descuento AFP
+•	Seguro de cesantía

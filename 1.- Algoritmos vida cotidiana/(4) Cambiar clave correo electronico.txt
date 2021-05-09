@@ -1,0 +1,16 @@
+Entradas: Nueva clave, clave antigua, computador, internet, correo electrónico y pregunta de seguridad. 
+
+
+Procesos
+•	Ingresar usuario.
+•	Ingresa al perfil.
+•	Luego sección de seguridad.
+•	Contraseña.
+•	Ingresar nueva contraseña.
+•	Repetir nueva contraseña y aceptar.
+•	Confirmar desde correo de respaldo o celular.
+
+
+Salida: Correo con modificación de contraseña.
+
+

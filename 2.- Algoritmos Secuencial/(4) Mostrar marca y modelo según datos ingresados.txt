@@ -1,0 +1,16 @@
+Realizar un algoritmo en pseudocódigo que pida ingresar el modelo y la marca de un vehículo y que muestre por pantalla los datos ingresados. 
+
+Variables 
+Modelo, string;
+Marca, string;
+
+Pseudocódigo 
+Escribe “Ingrese modelo”;
+Leer = modelo;
+
+Escribe “Ingrese marca”;
+Leer = marca;
+
+Escribe “La marca de su vehículo es ”, marca;
+
+Escribe “El modelo es ”, modelo

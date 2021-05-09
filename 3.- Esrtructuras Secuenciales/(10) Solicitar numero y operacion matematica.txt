@@ -1,0 +1,50 @@
+Ejercicio N°10: Que solicite al usuario ingresar 2 números y realizara la operación matemática con estos números, el usuario debe seleccionar la operación a realizar.
+
+
+Variables
+(Int) Numero1
+(Int) Numero2
+(Float) Resultado
+(Int) Operacion
+(String) Mensaje
+
+Algoritmo 
+
+ 
+Escribir ("Ingrese el primer numero")
+Leer Numero1
+
+Escribir ("Ingresar el segundo numero")
+Leer Numero2
+
+Escribir ("Ingresar que operación desea realizar? Ingrese numero correspondiente a operación (1=Suma,2=Resta,3=Multiplicacion,4=División,5=Modulo)")
+Leer Operacion
+
+Segun (operacion){
+        caso (operacion == 1) //SUMA
+                Resultado = Numero1 + Numero2
+                Mensaje = "La Suma de " . Numero1 . " + " . Numero2 . "es igual a " . Resultado
+                break;
+        caso (operacion == 2): //RESTA
+                Resultado = Numero1 - Numero2
+                Mensaje = "La Resta de " . Numero1 . " - " . Numero2 . "es igual a " . Resultado
+                break;
+        caso (operacion == 3): //MULTIPLICACION
+                Resultado = Numero1 * Numero2
+                Mensaje = "La Multiplicación de " . Numero1 . " * " . Numero2 . "es igual a " . Resultado
+                break;
+        caso (operacion == 4): //DIVISION
+                Resultado = Numero1 / Numero2
+                Mensaje = "La Division de " . Numero1 . " / " . Numero2 . "es igual a " . Resultado
+                break;
+        caso (operacion == 5): // MODULO
+                Resultado = Numero1 % Numero2
+                Mensaje = "El Modulo de " . Numero1 . " % " . Numero2 . "es igual a " . Resultado
+                break;
+        caso (Default):
+                Mensaje = "Debe ingresar un operador válido, verificar listado";
+                break;
+}
+
+Escribir (Mensaje)
+//FIN

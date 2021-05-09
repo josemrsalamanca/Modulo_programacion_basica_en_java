@@ -1,0 +1,21 @@
+Ejercicio N°3: Determinar si un numero ingresado es múltiplo o no de 3
+
+
+Variable
+(int) numero 
+(int) resto
+
+
+Algoritmo
+Escribir “Ingrese un numero”
+
+
+Leer numero
+Resto= (numero%2)
+
+
+Si (resto==0) entonces
+Escribir “El numero”, numero, “ es un numero múltiplo de 3”
+
+Sino
+Escribir “El numero”, numero, “ no es un numero múltiplo de 3”

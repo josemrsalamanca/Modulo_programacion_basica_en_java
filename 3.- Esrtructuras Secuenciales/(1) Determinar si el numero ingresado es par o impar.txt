@@ -1,0 +1,19 @@
+Ejercicio N°1: Determinar si un numero ingresado es par o impar 
+
+
+Variable
+(int) numero 
+(int) resto
+Algoritmo
+
+
+Escribir “Ingrese un numero”
+Leer numero
+Resto= (numero%2)
+
+
+Si (resto==0) entonces
+Escribir “El numero”, numero, “ es un numero par”
+
+Sino
+Escribir “El numero”, numero, “ es un numero impar”

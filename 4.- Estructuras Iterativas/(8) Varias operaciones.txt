@@ -1,0 +1,37 @@
+Ejercicio N°8
+
+Se ingresa una cantidad de números, calcular la suma de todos los números pares ingresados y la multiplicación de todos los impares ingresados, además determinar si de los números ingresados fueron más pares o impares (La cantidad de números que se ingresan deben ser determinadas por el usuario).
+
+
+Cantidad
+Numero
+Contadorpar = 0
+Contadorimpar = 0
+Sumarpar = 0
+Multi = 1
+
+Escribir (“¿Cuántos números va a ingresar?”)
+Leer Cantidad
+
+Para(I = 1; I<= Cantidad; I ++ )
+Escribir (“Ingrese el número: ”)
+Leer Numero
+
+	Si Numero % 2 == 0 
+		Sumapar = Sumapar + Numero
+		Contadorpar = Contadorpar + 1
+	Sino	
+		Multi = Multi*Numero
+		Contadorimpar = Contadorimpar + 1
+Fin Para
+
+Escribir (“La suma de los números pares es: ”, Sumapar)
+Escribir(“La multiplicación de los impares es: ”, Multi)
+
+Según	Contadorpar  > Contadorimpar
+	Escribir (“La cantidad de números pares es mayor que la de impares”) 
+Sino
+	Escribir (“La cantidad de números impares es mayor que la de pares”)
+Else
+	Escribir (“La cantidad de números pares e impares es igual”)
+Fin Según 

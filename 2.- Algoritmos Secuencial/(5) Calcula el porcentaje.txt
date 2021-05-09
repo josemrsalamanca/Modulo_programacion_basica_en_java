@@ -1,0 +1,17 @@
+Realizar un algoritmo en pseudocódigo que permita calcular el % solicitado de un número ingresado. 
+
+Variables
+Número, int;
+Porcentaje, float; 
+Numerofinal, float; 
+
+Pseudocódigo
+
+Escribe “Ingrese número”
+Leer = numero;
+
+Escribe “Ingrese porcentaje”
+Leer = porcentaje; 
+
+Numerofinal = (numero*porcentaje)/100
+Escribe “El “, porcentaje, “ de ”, numero, “ es ”, numerofinal

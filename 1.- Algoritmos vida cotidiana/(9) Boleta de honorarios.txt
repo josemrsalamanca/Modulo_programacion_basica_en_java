@@ -1,0 +1,29 @@
+Crear un algoritmo que permita realizar una boleta de honorarios, identificar entradas, salida, procesos, variables, constantes y tipos de datos.
+
+
+Entradas: Nombre, Rut, domicilio, región, comuna, fecha, monto y prestación.
+Procesos 
+
+
+•	Ingresar nombres del destinatario
+•	Ingresar Rut 
+•	Ingresar fecha
+•	Ingresar domicilio
+•	Ingresar región
+•	Ingresar comuna
+•	Ingresar prestación
+•	Ingresar monto
+•	Confirmar emisión
+
+
+Salida: Emisión boleta de honorarios
+
+
+Variables
+•	(int) Valor hora
+•	(float) Horas trabajadas
+•	(string) Rut
+
+
+Constante
+•	Retención para leyes sociales

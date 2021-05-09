@@ -1,0 +1,16 @@
+Ejercicio N°7: Que indique si un numero es divisible por 2 y por 5 al mismo tiempo.
+
+
+Variables
+(Float) NumeroPrueba   
+
+Algoritmo
+Imprimir "Escriba el número a comprobar" 
+Leer NumeroPrueba 
+
+Si (NumeroPrueba %2 ==0 y NumeroPrueba %5 ==0)
+         Imprimir "El número es divisible por 2 y 5 al mismo tiempo" 
+Sino
+         Imprimir "El número no es divisible por 2y 5 al mismo tiempo"  
+Fin si
+

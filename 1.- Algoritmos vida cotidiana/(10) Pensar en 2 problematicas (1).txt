@@ -1,0 +1,36 @@
+Pensar en 2 problemáticas las cuales podamos resolver aplicando tecnología (software), luego analizar y definir 3 requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos. 
+
+Problema N°1: Organizar link para clases online.
+
+Requerimientos
+•	Gestión de reuniones
+•	Recordatorio de reuniones
+•	Notas de cada clase
+
+Variables
+•	(String) Link
+•	(String) Asignatura
+•	(String) Día 
+•	(String) Hora
+•	(String) Clave
+•	(String) Comentarios
+
+
+Algoritmo
+(Parte 1)
+•	Dia = Ingresar día
+•	Hora= Ingresar hora
+•	Link = Ingresar link 
+•	Asignatura = Ingresar asignatura
+•	Ingresar clave
+•	Fijar recordatorio en min
+•	Ingresar comentario 
+(Parte 2)
+•	Organiza los datos según día y hora
+•	Suena recordatorio
+•	Ingresamos al link recordado
+•	Disfrutamos de nuestra clase
+
+
+Salida
+Automatización de programación de clases.

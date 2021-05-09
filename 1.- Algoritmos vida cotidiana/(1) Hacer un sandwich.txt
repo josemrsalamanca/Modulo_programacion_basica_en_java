@@ -1,0 +1,19 @@
+Entradas: Pan, palta, sal, plato, cuchara, tenedor y cuchillo. 
+
+
+Procesos
+0.	Abrir el refrigerador
+1.	Sacar una palta
+2.	Sacar un plato
+3.	Partir la palta con el cuchillo
+4.	Sacar el cuesco con la cuchara y botarlo
+5.	Sacar el contenido de la palta y dejarlo en el plato
+6.	Botar la cascara de la palta
+7.	Moler la palta con el tenedor
+8.	Agregar sal a gusto 
+9.	Mezclar todo 
+10.	Agregar la palta con el tenedor en el pan
+11.	Servir 
+
+
+Salida: Pan con palta

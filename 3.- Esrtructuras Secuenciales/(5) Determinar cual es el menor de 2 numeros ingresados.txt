@@ -1,0 +1,24 @@
+Ejercicio N°5: Que permita determinar cuál es el menor de 2 números ingresados
+
+
+Variables
+(Int) num1 
+(Int) num2
+(Int) num3
+
+
+Algoritmo
+Escribir “Ingrese un numero”
+Leer num1
+
+
+Escribir “Ingrese otro numero”
+Leer num2
+
+Diferencia =  num1 -num2
+Si diferencia > 0 entoncs
+Escribir “El numero menor es ”, num2 
+
+Else
+Escribir “Son iguales”
+

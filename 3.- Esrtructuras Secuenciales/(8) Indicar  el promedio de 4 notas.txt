@@ -1,0 +1,28 @@
+Ejercicio N°8: Que permita ingresar 4 notas, calcule el promedio de estas y además si el promedio es suficiente para aprobar.
+
+
+Variables
+(Int) nota1
+(Int) nota2
+(Int) nota3
+(Int) nota4
+(Int) promedio
+
+
+Algoritmo
+Definir nota1, nota2, nota3, nota4, promedio Como Real;
+
+Escribir "Ingrese la nota 1: " 
+Leer nota1  
+
+Escribir "Ingrese la nota 2: " 
+Leer nota2  
+
+Escribir "Ingrese la nota 3: " 
+Leer nota3
+
+Escribir "Ingrese la nota 4: " 
+Leer nota4
+
+promedio = (nota1 + nota2 + nota3 + nota4)/4;   
+Escribir "El promedio es ", promedio

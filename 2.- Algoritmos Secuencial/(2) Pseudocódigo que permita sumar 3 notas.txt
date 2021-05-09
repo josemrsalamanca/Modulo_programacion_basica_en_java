@@ -1,0 +1,17 @@
+Realizar un algoritmo en pseudocódigo que permita calcular el promedio de 3 notas.
+
+Variables: 
+
+Captura x
+Captura y
+Captura z
+
+Crear una variable que suma (x+y+z)
+Crear una variable contador (x+y+z)
+Crear una variable promedio ¿suma/contador?
+
+Imprimir “El promedio es”, promedio
+Realizar un algoritmo en pseudocódigo que permita calcular el cuadrado de un número. 
+Captura x
+Crear una variable cuadrado = x*x
+Imprimir por pantalla “El cuadrado de ”, x, “ es ”,cuadrado

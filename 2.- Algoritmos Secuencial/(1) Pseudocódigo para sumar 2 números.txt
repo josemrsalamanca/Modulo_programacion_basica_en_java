@@ -1,0 +1,9 @@
+Realizar un algoritmo en pseudocódigo que permita sumar 2 números.
+
+Variables: 
+Captura num1 
+Captura num2 
+
+
+Crear una variable num3 que sume (num1 + num2)
+Imprimir por pantalla “La suma de los dos números es ”, num3 

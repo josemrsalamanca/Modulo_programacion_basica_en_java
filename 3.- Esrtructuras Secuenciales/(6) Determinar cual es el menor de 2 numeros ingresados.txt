@@ -1,0 +1,29 @@
+Ejercicio N°6: Determinar si la suma de 2 números es positiva, negativas o cero. 
+
+Variables
+(Float) num1
+(Float) num2 
+(Float) sum
+
+Algoritmo
+Escribe ("Ingrese 2 números para verificar si su suma es positivo negativo o cero")
+Escribe ("Ingrese su primer numero")
+leer num1
+Escribe ("Ingrese su segundo numero")
+leer num1
+
+sum = num1+num2
+
+Si (sum<0)
+	Escribe ("La suma de sus numeros es negativa")
+	Sino 
+   		Si (sum>0)
+      		Escribe ("La suma de sus numeros es positiva")
+    	Sino 
+      		Si (sum==0)
+     		Escribe ("La suma de sus numeros es 0)
+	fin si 
+fin si
+
+
+

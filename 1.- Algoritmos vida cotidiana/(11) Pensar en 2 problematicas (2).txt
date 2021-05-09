@@ -1,0 +1,39 @@
+Pensar en 2 problemáticas las cuales podamos resolver aplicando tecnología (software), luego analizar y definir 3 requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos. 
+
+Problema N°2: Organizar el consumo eléctrico de locales comerciales en un mall.
+
+
+Requerimientos
+•	Lectura anterior
+•	Lectura actual
+•	Cargo fijo
+
+
+Variable
+•	(int) Lectura Anterior
+•	(int) Lectura Actual
+•	(float) Cargo fijo
+•	(int) Diferencia
+•	(float) Consumo 
+•	(float) Cargo kw
+•	(float) Consumo total
+•	(int) Sobreconsumo
+•	(string) Local
+
+
+Algoritmo
+Local = Ingrese nombre local
+Lecant = ingresar lectura mes anterior
+Lecact = ingresar lectura mes actual 
+Diferencia = Lecact – Lectant	
+CargoKw = Ingrese cargo Kw 
+Carjofijo = Ingrese cargo fijo
+Consumo = Diferencia*Cargokw 
+Consumototal = Consumo + Cargofijo
+Imprimir “El consumo del local es igual a  ”, Consumototal 
+
+	Si consumototal > sobreconsumo
+		Escribir (“Está sobrepasando el consumo mínimo”)
+
+Salida: Monto a pagar en energía eléctrica en cada local del mall. 
+

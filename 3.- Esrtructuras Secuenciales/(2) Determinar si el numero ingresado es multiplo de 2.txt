@@ -1,0 +1,21 @@
+Ejercicio N°2: Determinar si un numero ingresado es múltiplo o no de 2 
+
+
+Variable
+(int) numero 
+(int) resto
+
+
+Algoritmo
+Escribir “Ingrese un numero”
+
+
+Leer numero
+Resto= (numero%2)
+
+
+Si (resto==0) entonces
+Escribir “El numero”, numero, “ es un numero multiplo de 2”
+
+Sino 
+Escribir “El numero”, numero, “ no es un numero multiplo de 2”

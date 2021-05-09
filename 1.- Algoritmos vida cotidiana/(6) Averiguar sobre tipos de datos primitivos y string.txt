@@ -1,0 +1,16 @@
+Averiguar los tipos de datos primitivos que existen en JAVA.
+
+•	Byte: Tipo de dato de 8 bits con signo. De tal manera que puede almacenar los valores numéricos de -128 a 127.
+•	Short: Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
+•	Int: Es un tipo de dato de 32 bits con signo para almacenar valores numéricos. Cuyo valor mínimo es -231 a 231.
+•	Long: Es un tipo de dato de 64 bits con signo que almacena valores numéricos entre -263 a 263.
+•	Float: Es un tipo dato para almacenar números decimales con precisión de 32 bits.
+•	Double: Es un tipo dato para almacenar números decimales con precisión de 64 bits.
+•	Boolean: Datos que tienen un valor de true o false. Ocupa 1 bit de información.
+•	Char: Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
+
+
+String
+No corresponden a un dato primitivo, sino a una clase. Almacenan datos de cadenas de texto, a diferencia del char que solo permite 1 carácter. 
+
+

@@ -1,0 +1,13 @@
+Ejercicio N°1
+
+
+Realizar un algoritmo en seudocódigo que resuelva los siguientes problemas utilizando una de las 3 estructuras iterativas que hemos visto (mientras – hacer mientras - para).
+Calcular la suma de los números del 1 al 100.
+I = 1
+Suma = 0
+Mientras (I <= 100) Hacer
+Suma = Suma + I
+I = I + 1
+	Fin Si
+	Escribir (“La suma de los números del 1 al 100 es: ”), Suma
+Fin mientras

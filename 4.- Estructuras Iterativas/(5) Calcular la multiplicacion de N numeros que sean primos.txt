@@ -1,0 +1,24 @@
+Ejercicio N°5
+Calcular la multiplicación de N números ingresados por un usuario que sean números primos. (La cantidad debe ser ingresada por el mismo usuario).
+
+Cantidad
+Num
+I = 1 
+Contador = 0
+Multiplicacion = 1
+
+Escribir “¿Cuántos números va a ingresar?”
+Leer Cantidad
+Para (I = 1; I <= Cantidad; i ++)
+Escribir “Ingrese los números”
+Leer Num
+	Mientras I <= Num 
+		Si Num % I == 0
+			Contador = contador + 1
+		Fin si
+		I = I + 1
+	Fin Mientras
+	Si Contador == 2 & Num != 1 
+		Multiplicacion = Multiplicacion * Num
+	Fin sI	
+Fin Para
