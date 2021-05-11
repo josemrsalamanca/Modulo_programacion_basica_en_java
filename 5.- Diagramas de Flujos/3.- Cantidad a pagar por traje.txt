@@ -1,0 +1,24 @@
+Ejercicio N°3
+
+Almacenes “El harapiento distinguido” tiene una promoción: a todos los trajes que tienen un precio 
+superior a $250.000.- se le aplicará un descuento de un 15%, a todos los demás se les aplicará sólo 8%. 
+Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar un traje y 
+de cuánto es el descuento que obtendrá, y su respectivo diagrama de flujo.
+
+Variables: Valor y Descuento
+
+Pseudocódigo:
+Escribe (“Ingrese el valor del traje comprado: ”)
+Leer Valor
+Si valor>= 250.000 entonces
+          Valor = valor * 0,85
+          Descuento = valor * 0,15 
+          Escribir (“El valor del traje es: ”, valor)
+          Escribir (“El valor del traje es: ”, descuento)
+Sino 	
+          Valor = valor* 0,92
+          Descuento = valor * 0,08
+          Escribir (“El valor del traje es: ”, valor)
+          Escribir (“El valor del traje es: ”, descuento)
+Fin si
+

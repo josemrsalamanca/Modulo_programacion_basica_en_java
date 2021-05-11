@@ -1,0 +1,36 @@
+Ejercicio N°11
+Que permita calcular el promedio de edades de N edades ingresadas y determine cual es la mayor edad registrada y la menor.
+
+Variables: 
+Suma = 0
+Promedio 
+Edad
+Mayor = 0 
+Menor = 100 
+Cantidad
+I = 1
+
+Escribir (“¿Cuántas edades desea ingresar?”)
+Leer Cantidad
+
+Mientras (I <=  Cantidad) entonces
+	Escribir (“Ingrese ”, I, “ edad.”)
+	Leer Edad
+	Si Edad > Mayor
+		Mayor = Edad
+		Suma = Edad + Suma
+		Promedio= Suma/Cantidad
+	Fin si
+	Si  Edad < Menor
+Menor = Edad
+		Suma = Edad + Suma
+		Promedio= Suma/Cantidad
+	Fin si
+
+	I = I +1
+	Escribir (“El promedio de las edades es: ”, Promedio)
+	Escribir (“La mayor edad es: ”, mayor)
+	Escribir (“La mayor edad es: ”, menor)
+
+Fin Mientras
+

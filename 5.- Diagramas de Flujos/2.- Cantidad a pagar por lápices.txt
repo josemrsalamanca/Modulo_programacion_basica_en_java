@@ -1,0 +1,19 @@
+Ejercicio N°2
+
+Realice un algoritmo para determinar cuanto se debe pagar por X cantidad de lápices 
+considerando que si son 1000 o más el costo es de $85; de lo contrario, el precio es de $90. 
+Represéntelo con el pseudocódigo, el diagrama de flujo.
+
+Variables: Monto y Cantidad
+
+Pseudocódigo:
+Escribir (“Ingrese cantidad de lápices a comprar”) 
+Leer Cantidad
+
+Si Cantidad >= 1000 entonces
+          Monto = Monto*85
+          Escribir (“El valor de los lápices es: $”, Monto)
+Sino
+         Monto = Monto*90
+         Escribir (“El valor de los lápices es: $”, Monto)
+Fin si 

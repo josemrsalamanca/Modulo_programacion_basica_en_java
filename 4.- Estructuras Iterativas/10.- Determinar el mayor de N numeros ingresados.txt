@@ -1,0 +1,43 @@
+Ejercicio N°10
+Determinar el mayor de N números ingresados por el usuario.
+
+Variables:
+Cantidad
+Numero
+Mayor = 0
+I = 1
+
+Pseudocódigo:  
+Escribir (“¿Cuántas números desea ingresar?”)
+Leer Cantidad
+
+Mientras (i <= Cantidad) entonces
+	Escribir (“Ingrese números N° ”, i)
+	Leer Numero
+	Si Numero >= Mayor 
+		Mayor = Numero
+	Fin Si 
+	I = I + 1
+	Escribir (“El número mayor es: ”, mayor)
+Fin mientras
+
+	
+Variables:
+Cantidad
+Numero
+Menor = 0
+I = 1
+
+Pseudocódigo:
+Escribir (“¿Cuántas números desea ingresar?”)
+Leer Cantidad
+
+Mientras (i <= Cantidad) entonces
+	Escribir (“Ingrese números N° ”, i)
+	Leer Numero
+	Si Numero > Menor
+		Menor = Numero
+	Fin Si 
+	I = I + 1
+	Escribir (“El número mayor es: ”, mayor)
+Fin mientras

@@ -1,0 +1,30 @@
+Ejercicio N°4
+
+“La langosta ahumada” es una empresa dedicada a ofrecer banquetes; sus tarifas son las siguientes: 
+el costo del platillo por persona es de $9.500, pero si el número de personas es mayor a 200 pero
+menor o igual a 300, el costo es de $8.500. Para más de 300 personas el costo por platillo es de $7.500. 
+Se requiere un algoritmo que ayude a determinar el presupuesto que se debe presentar a los clientes que 
+deseen realizar un evento. Mediante pseudocódigo y diagrama de flujo.
+
+Variables: 
+Platillos 
+
+Pseudocódigo:
+Escribir (“Ingresar el número de platillos que desea: ”)
+Leer Platillos
+
+Si (Platillos < 200) entonces
+          Platillos = Platillos * 9.000
+          Escribir (“El presupuesto para el evento es de: ”, Platillos)
+Sino (Platillos >= 200)  && (Platillos <= 300 )entonces
+          Platillos = Platillos * 8.500
+          Escribir (“El presupuesto para el evento es de: ”, Platillos)
+Else
+          Si (platillos >3200) entonces
+          Platillos = Platillos * 7.500
+          Escribir (“El presupuesto para el evento es de: ”, Platillos)
+Fin si
+
+
+
+
