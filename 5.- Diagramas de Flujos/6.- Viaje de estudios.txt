@@ -1,0 +1,31 @@
+Ejercicio N°6
+
+El director de una escuela está organizado un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $6.500; de 50 a 99 alumnos, el costo de $7.000, de 30 a 40, de $9.500, y si son menos de 30, el costo de la renta del autobús es de $4.000.000. Si importar el número de alumnos. 
+Realice un algoritmo que permita determinar el pago a la compañía de autobuses y lo que debe pagar cada alumno por el viaje represente en pseudocódigo y diagrama de flujo. 
+
+Diagrama de flujo: 
+
+
+int alumnos
+int valor
+int pago 
+Ingrese cantidad de alumnos
+Leer alumnos
+
+Si (alumnos < 100) entonces
+          Si (alumno > 49) entonces 	
+                 Valor = alumno*7000
+                 Pago = 7000
+          Sino (alumno > 29) entonces
+                 Valor = alumno*9000 
+                 Pago = 9000
+          Else
+                 Valor = 4.000.000
+                 Pago = 4.000.000 / alumnos
+          Fin si
+Sino
+          Valor = alumno * 6500
+          Pago = 6500
+Fin si
+Escribir “El valor del viajo es ”, valor “ y cada alumno paga ”, pago
+
