@@ -1,0 +1,73 @@
+Ejercicio N°8
+
+una compañía de viajes cuenta con 3 tipos de autobuses (A, B, C), cada uno tiene un precio por kilometro recorrido por persona, los costos respectivos son $200, $250 y $300. Se requiere determinar el costo total y por persona del viaje considerando que cuando éste se presupuesta debe haber un mínimo de 20 personas, de lo contrario el cobro se realiza con base en este número límite. Realizar su algoritmo en pseudocódigo y su diagrama de flujo.
+
+Variables: Tipo, personas, km, i ,costopersona = 0 , costopersonas
+
+Pseudocódigo 
+
+Escribir (“Ingrese tipo: A, B, C”)
+
+Si tipo == A entonces
+	Escribir (“Ingrese N° Personas: ”)
+	Leer Personas
+	
+	Si personas < 20 entonces 
+		Costopersonas = 20 *200
+		Escribir (“El costo del viaje mínimo por 20 personas es: 
+                     ”, costopersonas)
+	Escribir (“Ingrese km: ”)
+	Leer Km
+	Mientras (i < = personas) entonces
+		Costopersonas = Km * 200 + costopersona
+		Costopersona= Km*200
+		Escribir (“El costo por persona es ”, costo persona)
+	Fin mientras	
+	I = I +1
+	Escribir (“El costo total es: ”, costopersonas)
+
+
+Si tipo == B entonces
+	Escribir (“Ingrese N° Personas: ”)
+	Leer Personas
+	
+	Si personas < 20 entonces 
+		Costopersonas = 20 *250
+		Escribir (“El costo del viaje mínimo por 20 personas es: 
+                     ”, costopersonas)
+	Escribir (“Ingrese km: ”)
+	Leer Km
+	Mientras (i < = personas) entonces
+		Costopersonas = Km * 250 + costopersona
+		Costopersona= Km*250
+		Escribir (“El costo por persona es ”, costo persona)
+	Fin mientras	
+	I = I +1
+	Escribir (“El costo total es: ”, costopersonas)
+
+Si tipo == C entonces
+	Escribir (“Ingrese N° Personas: ”)
+	Leer Personas
+	
+	Si personas < 20 entonces 
+		Costopersonas = 20 *300
+		Escribir (“El costo del viaje mínimo por 20 personas es: 
+                     ”, costopersonas)
+	Escribir (“Ingrese km: ”)
+	Leer Km
+	Mientras (i < = personas) entonces
+		Costopersonas = Km * 300 + costopersona
+		Costopersona= Km*300
+		Escribir (“El costo por persona es ”, costo persona)
+	Fin mientras	
+	I = I +1
+	Escribir (“El costo total es: ”, costopersonas)
+Fin si 
+
+
+
+
+
+
+
+

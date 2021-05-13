@@ -1,0 +1,50 @@
+Ejemplo N°9
+
+“El náufrago satisfecho” ofrece hamburguesas sencillas, dobles y triples, las cuales tienen un costo de $2000, $2500, $2800, respectivamente. La empresa acepta tarjetas de crédito con un cargo de 5% sobre la compra. Suponiendo que los clientes adquieren solo un tipo de hamburguesa, realice un algoritmo para determinar cuánto debe pagar una persona por N hamburguesas. Represéntelo mediante diagrama de flujo y pseudocódigo. 
+
+Variables: Tipo, Cantidad, Variables y MP.
+
+Escribir (“Ingrese tipo de hamburguesa: A, B, C ”)
+Leer Tipo
+
+Si Tipo == A entonces
+	Escribir (“¿Cuántas hamburguesas quiere?”)
+	Leer Cantidad
+	Precio = Cantidad * 2.000
+	Escribir (“Ingrese medio de pago. 1= Débito; 2 = Crédito”)
+	Leer MP
+	Si MP == 1
+	Escribir (“Usted debe pagar: ”, Precio)
+	Si MP == 2
+	Escribir (“Usted debe pagar: ”, Precio*1,05)
+
+Si Tipo == B entonces
+	Escribir (“¿Cuántas hamburguesas quiere?”)
+	Leer Cantidad
+	Precio = Cantidad * 2.500
+	Escribir (“Ingrese medio de pago. 1= Débito; 2 = Crédito”)
+	Leer MP
+	Si MP == 1
+	Escribir (“Usted debe pagar: ”, Precio)
+	Si MP == 2
+	Escribir (“Usted debe pagar: ”, Precio*1,05)
+
+Si Tipo == C entonces
+	Escribir (“¿Cuántas hamburguesas quiere?”)
+	Leer Cantidad
+	Precio = Cantidad * 2.800
+	Escribir (“Ingrese medio de pago. 1= Débito; 2 = Crédito”)
+	Leer MP
+	Si MP == 1
+	Escribir (“Usted debe pagar: ”, Precio)
+	Si MP == 2
+	Escribir (“Usted debe pagar: ”, Precio*1,05)
+Fin Si
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+Ejercicio N°10
+
+El consultorio del Dr. Lozano tiene como política cobrar la consulta con base en el numero de cita, de la siguiente forma: 
+•	Las 3 primeras citas a $200 c/u
+•	Las siguientes 2 citas a $150 c/u
+•	Las 3 siguientes citas a $100 c/u
+•	Las restantes a $50 c/u, mientras dure el tratamiento
+Se requiere un algoritmo para determinar: 
+•	Cuanto pagara el paciente por la cita.
+•	El monto de lo que ha pagado el paciente por el tratamiento. 
+Para la solución de este problema se requiere saber qué número de cita se efectuará, con el cual se podrá determinar el costo que tendrá la consulta y cuánto se ha gastado en tratamiento.
+
+Variables
+Tari1 = 200, Tari2 = 150, Tari3 = 100, Tari4 = 50, cita, costo persona, costo personas, Consultas, Sesiones. 
+
+Pseudocódigo
+
+Escribir (“¿Qué número de cita se efectuará?”)
+Leer cita 
+
+Mientras cita =! 0 entonces 
+Si (cita – tari1) >= 1 && (cita – tari1) <= 3
+           	Costopersonas = (cita – tari1) * 200 +costo1
+		Costopersona = (cita – tari1) * 200
+Si (cita – tari2) >=5 && (cita – tari2) <= 8
+          		Costopersonas = (cita – tari2) * 150 + costo2
+		Costopersona = (cita – tari2) * 150
+Si (cita – tari3) > 8 && (cita – tari3) <= 10      
+          		Costopersonas = (cita – tari3) * 100  + costo3
+		Costopersona = (cita – tari3) * 100  
+Si (cita – tari4) >10
+          		Costopersonas = (cita – tari4) * 50  + costo4
+		Costopersona = (cita – tari4) * 50  
+Fin si 
+Fin mientras
+Consulta = costopersona
+Sesiones = costopersonas
+Escribir = (“El costo costo consulta: ”, costopersona)
+Escribir = (“El costo de las sesiones que lleva: ”, costopesonas)
+
+
+
+
+
+
+
+

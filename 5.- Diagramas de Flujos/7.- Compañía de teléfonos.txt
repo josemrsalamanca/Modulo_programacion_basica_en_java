@@ -1,0 +1,35 @@
+Ejercicio N°7
+
+La política de la compañía telefónica “Chismefón” es: “Chismea + X”. Cuando se realiza una llamada, el cobro es por el tiempo que esta dura, de tal forma que los primeros cinco minutos cuestan $100 c/u, los siguientes tres, $80 c/u, los siguientes dos minutos, $70 c/u, y a partir del décimo minuto, $50. c/u
+Además, se carga un impuesto de 3% cuando es domingo, y si es día hábil, en turno matutino, 15%, y en turno vespertino, 10 %. Realice un algoritmo para determinar cuánto debe pagar por cada concepto una persona que realiza una llamada. Represéntelo en diagrama de flujo y en pseudocódigo. 
+
+Variables
+Minutos, horario, Costo1, Costo2, Coste3, Costo4, tari1 = 0, tari2 = 5, tari3 = 8 y tari4= 10, domingo.
+
+
+Pseudocódigo
+
+Escribir (“¿Cuántos minutos hablo?”)
+Leer minutos
+Mientras minutos =! 0 entonces 
+Si (minutos – tari1) >= 1 && (minutos – tari1) <= 5
+           	Costo1 = (minutos – tari1) * 100 
+Si (minutos – tari2) >=5 && (minutos – tari2) <= 8
+          		Costo2 = (minutos – tari2) * 80 
+Si (minutos – tari3) > 8 && (minutos – tari3) <= 10      
+          		Costo3 = (minutos – tari3) * 70 
+Si (minutos – tari4) >10
+          		Costo4 = (minutos – tari4) * 50 
+End if 
+Fin mientras
+Tarifa = costo1 + costo2 + coste3 + costo4
+Si domingo == 7
+	Escribir (“Ingrese día de la semana Lunes=1, Martes=2, Miércoles=3,            Jueves=4; Viernes=5; Sábado=6, Domingo=7: ”)
+	Leer domingo
+	Tarifa = Tarifa * 1,03 
+Sino 
+	Escribir (“Si es día hábil antes 12 am, ingrese am, sino pm: ”)
+	Leer horario
+	Si horario == am
+		Tarifa = Tarifa * 1,15
+	Sino
