@@ -1,0 +1,18 @@
+Ejercicio N°12
+
+Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo para. Realice el diagrama de flujo y el pseudocódigo. 
+Variables: I = 1; Suma
+
+Pseudocódigo
+Escribir (“Ingrese 10 números: ”)
+Leer Cantidad
+Suma = 0 
+
+Mientras (I <= 1; I <= 10; I ++) entonces
+	Escribir (“Ingrese nota: ”)
+	Leer Nota 
+	Suma = Suma + Cantidad 
+	Escribir (“La suma de los 10 números es: ”, Suma)
+	I = I +1
+Fin mientras
+

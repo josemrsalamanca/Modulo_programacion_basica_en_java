@@ -1,0 +1,24 @@
+Ejercicio N°14
+Se requiere un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dineros; además, se requiere saber cuánto lleva ahorrado cada mes. Realice el diagrama de flujo y el pseudocódigo.
+
+Mes 
+Escribir (¿Ingrese Mes: Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, 
+Septiembre, Octubre, Noviembre, Diciembre?)
+Leer Mes
+
+Mientras ()
+
+Variables: Ahorro, Sum, I y M.
+
+Pseudocódigo 
+
+I = 0
+Suma = 0
+Hacer
+	Escribir (“Ingrese un monto a ahorrar: ”)
+	Leer Ahorro
+	Sum = Sum + Ahorro
+	M i = Suma
+	I ++
+Mientras (I < 12)
+Escribir (“En un año ahorro: ”, Sum)

@@ -1,0 +1,33 @@
+Ejercicio N°11
+
+Fábricas “El cometa” produce artículos con claves (1, 2, 3, 4, 5 y 6). Se requiere un algoritmo para calcular los precios de venta, para esto hay que considerar lo siguiente: costo de producción = materia + mano de obra + gastos de fabricación. Precio de venta = costo de producción + 45% de costo de producción. El costo de la mano de obra se obtiene de la siguiente forma: para los productos con clave 3 o 4 se carga 75% del costo de la materia prima; para los que tienen clave 1 y 5 se carga 80%, y para los que tienen clave 2 o 6, 85%. 
+Para calcular el gasto de fabricación se considera que, si el artículo que se va a producir tiene claves 2 o 5, este gasto representa 30% sobre el costo de la materia prima; si las claves son 3 o 6, representa 35%, si las claves son 1 o 4, representa 28%. La materia prima tiene el mismo costo para cualquier clave. Realizar el pseudocódigo y diagrama de flujo. 
+
+Variables: MP, Clave.
+
+Pseudocódigo: 
+
+Escribir (“Ingrese valor de la Materia Prima: ”)
+Leer MP
+
+Escribir (“Ingrese clave: 1, 2, 3, 4, 5, 6”)
+Leer Clave
+
+Si Clave == 3 ó Clave == 4 entonces
+	MO = MP * 0,75
+Si Clave == 1 ó Clave == 5 entonces
+	MO = MP * 0,80
+Si Clave == 2 ó Clave == 6 entonces
+	MO = MP * 0,85
+Si Clave == 2 ó Clave == 5 entonces
+	GF = MP*0,3
+Si Clave == 3 ó Clave == 6 entonces
+	GF = MP*0,35
+Si Clave == 1 ó Clave == 4 entonces
+	GF = MP*0,28
+CP = MP + MO + GF
+PV = CP*1,45
+
+Escribir (“El precio de venta del artículo ”, Clave, “ es de: ”, PV)
+
+

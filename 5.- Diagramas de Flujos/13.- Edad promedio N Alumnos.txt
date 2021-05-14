@@ -1,0 +1,16 @@
+Ejercicio N°13
+
+Se requiere un algoritmo para obtener la edad promedio de un grupo de N alumnos. Realice el diagrama de flujo y el pseudocódigo.
+Variables: I, Suma = 0 
+
+Escribir (“Ingrese número de alumnos: ”)
+Leer Alumnos
+
+Escribir (“Ingrese la edad de los alumnos”)
+Leer Edad
+
+Mientras (I <= Alumnos ) entonces
+	Suma = Suma + Suma
+	Promedio = Suma / Alumnos
+	Escribir (“El promedio de notas es: ”, Promedio)
+Fin mientras. 
