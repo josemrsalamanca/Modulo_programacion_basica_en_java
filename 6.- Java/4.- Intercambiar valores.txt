@@ -1,0 +1,30 @@
+Ejercicio N°4
+
+package javaapplication5;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class JavaApplication5 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int num1, num2, Aux1, Aux2;
+        
+        System.out.println("Ingrese el primer valor: ");
+        num1 = leer.nextInt();
+        System.out.println("Ingrese el segundo valor; ");
+        num2 = leer.nextInt();
+        
+  
+        
+        Aux1 = num2;
+        Aux2 = num1;
+        
+        System.out.println("El nuevo valor de Numero 1 es: "+Aux1);
+        System.out.println("El nuevo valor de Numero 2 es: "+Aux2);
+             
+    }
+    
+}
