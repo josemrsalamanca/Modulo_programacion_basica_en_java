@@ -1,0 +1,22 @@
+Ejercicio N°3
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int numero1;
+        float numero2;
+        System.out.println("Ingresar un valor para la variable Entero");
+        numero1 = leer.nextInt();
+        System.out.println("Ingresar un valor para la variable Decimal");
+        numero2 = leer.nextFloat();
+        
+        System.out.println("El valor de la variable es "+numero1);
+        System.out.println("El valor de la variable es "+numero2);
+        
+    }
+    
+}

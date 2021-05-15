@@ -1,0 +1,14 @@
+Ejercicio N°2
+
+package javaapplication2;
+
+public class JavaApplication2 {
+    public static void main(String[] args) {
+        int num1 = 234, num2 = 456, num3 = 789, num4= 1023, suma, promedio;
+        suma = num1 + num2 + num3 + num4;
+        promedio = suma/4;
+        System.out.println("El promedio es: "+promedio);
+         
+    }
+    
+}
