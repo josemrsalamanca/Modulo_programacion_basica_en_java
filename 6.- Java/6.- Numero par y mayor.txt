@@ -1,0 +1,21 @@
+Ejercicio N°26
+
+package javaapplication7;
+import java.util.Scanner;
+public class JavaApplication7 {
+
+    public static void main(String[] args) {
+        
+        Scanner leer = new Scanner(System.in);
+        int numero1, numero2;
+        System.out.println("Ingresar un numero ");
+        numero1 = leer.nextInt();
+        System.out.println("Ingresar otro numero");
+        numero2 = leer.nextInt();
+        if(numero1 % 2 == 0 && numero1 > numero2){
+            System.out.println("El número es par y el primer número es mayor");
+        }
+        
+    }
+    
+}

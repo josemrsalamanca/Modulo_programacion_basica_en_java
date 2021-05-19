@@ -1,0 +1,71 @@
+Ejercicio n°8
+
+
+La política de la compañía telefónica “Chismefón” es: “Chismea + X”. Cuando se realiza una llamada, el cobro es por el tiempo que esta dura, de tal forma que los primeros cinco minutos cuestan $100 c/u, los siguientes tres, $80 c/u, los siguientes dos minutos, $70 c/u, y a partir del décimo minuto, $50. c/u
+Además, se carga un impuesto de 3% cuando es domingo, y si es día hábil, en turno matutino, 15%, y en turno vespertino, 10 %. Realice un algoritmo para determinar cuánto debe pagar por cada concepto una persona que realiza una llamada. Represéntelo en diagrama de flujo y en pseudocódigo. 
+
+package chismefon;
+
+import java.util.Scanner;
+public class Chismefon {
+    public static void main(String[] args) {
+    
+    Scanner leer = new Scanner(System.in);
+    double min, dif, costo1 = 0, costo2 = 0, costo3 = 0, costo4 = 0, dia, ctotal, horario; 
+    
+    System.out.println("¿Cuántos minutos hablo?");
+    min = leer.nextInt();
+    
+    if (min < 5){
+        costo1 = costo1 + min*100;       
+    }
+    
+    if (min >= 5){
+        costo1 = costo1 + 5*100;
+    }
+    
+    if (min >= 6){
+        dif = min - 5; 
+        if (dif < 3){
+            costo2 = costo2 + dif*80;
+        }
+        else if (dif >= 3){
+            costo2 = costo2 + 3*80;
+        }
+    }
+    if (min >= 9){
+        dif = min - 8; 
+        if (dif <= 2){
+            costo3 = costo3 + dif*70;
+        }
+        else if (dif > 2){
+            costo3 = costo3 + 2*70;
+        }
+    }
+    if (min > 10){
+        dif = min - 10;
+        costo4 = costo4 + dif * 50;
+    }
+    ctotal = costo1 + costo2 + costo3 + costo4;
+    
+    System.out.println("Ingrese día: Lunes 1, Martes 2, Miercoles 3, Jueves 4, Viernes 5, Sabado 6, Domingo 7 ");
+    dia = leer.nextInt();
+    
+    if (dia == 7){
+        ctotal = ctotal*1.03;
+    }else{
+            System.out.println("Si es horario am ingrese 1, sino ingrese 2 ");
+            horario = leer.nextDouble(); 
+            
+            if (horario == 1){
+                ctotal = ctotal*1.15;
+            }
+            else {
+                ctotal = ctotal*1.1;
+            }  
+    }   
+    System.out.println("La costo de la llamada es: "+ctotal);
+
+    }
+    
+    }
