@@ -1,0 +1,42 @@
+Ejercicio N°12
+
+
+Utilizando los ciclos iterativos, crear un programa que muestre por pantalla los números paras que se encuentran entre el 1 y el numero que decida el usuario. 
+
+package javaapplication13;
+import java.util.Scanner;
+
+public class JavaApplication13 {
+
+    public static void main(String[] args) {
+        Scanner leer= new Scanner(System.in);
+        int sup, numero, i; 
+        System.out.println("Escriba un número positivo mayor a 1, el program mostrará los números pares entre el 1 y el N° escogido: ");
+        sup = leer.nextInt();
+        
+        i = 1;
+        do{
+            if ((i % 2) == 0){
+                numero = i;
+            System.out.println("Los numeros pares son: "+numero);
+            }
+            i ++;
+        }
+        while (sup >= i);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

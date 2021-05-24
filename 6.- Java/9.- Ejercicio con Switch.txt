@@ -1,0 +1,47 @@
+Ejercicio N°9
+
+
+package javaapplication20;
+import java.util.Scanner;
+public class JavaApplication20 {
+
+    public static void main(String[] args) {
+        
+        Scanner leer = new Scanner(System.in);
+        int dia;
+        String nombredia; 
+        
+        System.out.println("Ingrese un día de la semana: 1)Lunes, 2)Martes, 3)Miercoles, 4)Jueves, 5)Viernes, 6)Sabado, 7))Domingo");
+        dia = leer.nextInt();
+        
+        
+        switch(dia){
+            case 1:
+                nombredia = "Lunes";
+            break;
+            case 2:
+                nombredia = "Martes";
+            break;
+            case 3:
+                nombredia = "Miercoles";
+            break;
+            case 4:
+                nombredia = "Jueves";
+            break;
+            case 5:
+                nombredia = "Viernes";
+            break;
+            case 6:
+                nombredia = "Sabado";
+            break;
+            case 7:
+                nombredia = "Domingo";
+            break;
+            default: 
+                nombredia = "Ingrese un número de día válido";
+                
+        }
+        System.out.println("El día de la semana escogido es: "+nombredia);
+    }
+        
+    }

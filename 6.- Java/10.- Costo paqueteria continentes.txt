@@ -1,0 +1,59 @@
+Ejercicio N°10
+
+Una compañía de paquetería internacional tiene servicio en algunos países de América del norte, América central, América del sur, Europa u Asia. El costo por el servicio de paquetería se basa en el peso de los paquetes y a la zona a la que va dirigió.
+•	Zona 1: América del norte costo/gramo: $110.
+•	Zona 2: América central costo/gramo: $100.
+•	Zona 3: América del sur costo/gramo: $120.
+•	Zona 4: Europa costo7gtsmo: $240.
+•	Zona 5: Asia costo/gramo: $270.
+Parte de su política implica que los paquetes con un peso superior a 5 kg son transportados, esto por cuestiones de logística y de seguridad. Realice un algoritmo para determinar el cobro por la entrega de un paquete o, en su caso, el rechazo de la entrega; represéntelo mediante diagrama de flujo y algoritmo en pseudocódigo.
+
+package javaapplication21;
+import java.util.Scanner;
+public class JavaApplication21 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int paquete, destino; 
+        float kilos,calcu; 
+        String valor;
+        String el_destino;
+        System.out.println("Ingrese un destino. 1)America del norte, 2)America central, 3)America del sur, 4)Europa, 5)Asia");
+        destino = leer.nextInt();   
+        System.out.println("¿Cuantos kilos va a transportar?");
+        kilos = leer.nextFloat();
+        
+        if(kilos > 5){
+            calcu = 0; 
+        }else{
+            switch(destino){
+                case 1:
+                    el_destino= "America del Norte";
+                    calcu = kilos*110;
+                break;
+                case 2:
+                    el_destino= "America Central";
+                    calcu = kilos*100;
+                break;
+                case 3:
+                    el_destino= "America del Sur";
+                    calcu = kilos*120;
+                break;
+                case 4:
+                    el_destino="Europa";
+                    calcu = kilos*240;
+                break;
+                case 5:
+                    el_destino= "Asia";
+                    calcu = kilos*270;
+                break;
+                default:
+                    calcu= (0);  
+            }
+        System.out.println("El valor es: "+calcu); 
+        }
+         
+        }
+    }
+
+

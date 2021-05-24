@@ -1,0 +1,72 @@
+Ejercicio N°14
+
+Utilizando los ciclos iterativos, crear un programa que calcule el promedio de N notas ingresadas por el usuario. 
+
+package javaapplication15;
+
+import java.util.Scanner;
+
+class JavaApplication15 {
+
+    public static void main(String[] args) {
+        Scanner leer= new Scanner(System.in);
+        int cantidad, i=0, suma=0, promedio, nota; 
+        
+        System.out.println("¿Cuántas notas ingresará?");
+        cantidad = leer.nextInt();
+        i = 1;
+        do{
+            System.out.println("Ingrese la nota "+i);
+            nota = leer.nextInt();{
+                suma = nota + suma;
+                promedio = suma/cantidad ;
+            System.out.println("El promedio es: "+promedio);
+            }
+            i ++;
+        }
+        while (cantidad >= i);                  
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

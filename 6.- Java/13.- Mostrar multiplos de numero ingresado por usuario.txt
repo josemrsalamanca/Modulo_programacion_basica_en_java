@@ -1,0 +1,55 @@
+Ejercicio N°13
+
+Utilizando los ciclos iterativos, crear un programa que muestre por pantalla los números que sean múltiplos de un determinado número (dado por el usuario) que se encuentran entre el 1 y 100. 
+
+package javaapplication14;
+import java.util.Scanner;
+public class JavaApplication14 {
+    public static void main(String[] args) {
+        int mult,i,numero; 
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese un número: ");
+        mult = leer.nextInt();
+        
+        i = 1;
+        do{
+            if ((i % mult) == 0){
+                numero = i;
+            System.out.println("Los numeros multiplos entre el 1 y el 100: "+numero);
+            }
+            i ++;
+        }
+        while (i <= 100);    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

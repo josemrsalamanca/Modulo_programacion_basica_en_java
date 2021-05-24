@@ -1,0 +1,82 @@
+Ejercicio N°15
+
+Utilizando los ciclos iterativos, crear un programa que permita ingresar N números por teclado y que calcule la suma de los números pares ingresados y la multiplicación de los números impares y que además le diga al usuario si se ingresaron mas números pares o impares. 
+
+package javaapplication18;
+import java.util.Scanner;
+public class JavaApplication18 {
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int numero,i=1,cant, sumapar=0,multim=1, conteopar=0, conteoimpar=0; 
+        System.out.println("¿Cuántos números ingresará?");
+        cant = leer.nextInt();
+
+        i = 1;
+        do{
+            System.out.println("Ingrese Número "+i);
+            numero = leer.nextInt();
+            
+            if (numero % 2 == 0){
+                sumapar = sumapar + numero;
+                conteopar = conteopar + 1;            
+            }
+            if (numero % 2 != 0 ){
+                multim = multim*numero;
+                conteoimpar = conteoimpar + 1;         
+            }
+            i++;
+            }
+        while(cant >= i); 
+        
+        System.out.println("La suma de los números pares es: "+sumapar);
+        System.out.println("La multiplicación de los impares es: "+multim);
+        if (conteopar > conteoimpar){
+            System.out.println("Se ingresaron más números pares, con un total de "+conteopar+" y de impares "+conteoimpar);
+        }else if (conteoimpar > conteopar){
+            System.out.println("Se ingresaron más números pares, con un total de "+conteopar+" y de impares "+conteoimpar);      
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
