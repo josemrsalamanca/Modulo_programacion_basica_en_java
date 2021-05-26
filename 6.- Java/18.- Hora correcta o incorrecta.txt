@@ -1,0 +1,29 @@
+Ejercicio N°18
+
+
+Realizar un programa que lea por teclado tres números enteros H, M, S correspondientes a hora, minutos y segundos respectivamente, y comprueba si la hora que indica es una hora válida. Supondremos que, si leemos una hora en modo 24 Horas, es decir, el valor válido para las horas será mayor o igual que cero y menos que 24. El valor válido para los minutos y segundos estará comprendido entre 0 y 59 ambos incluidos. 
+package javaapplication22;
+import java.util.Scanner;
+public class JavaApplication22 {
+
+    public static void main(String[] args) {
+        int h, m, s; 
+        Scanner leer= new Scanner(System.in);
+        System.out.println("Ingrese que hora es [del 0 al 24]: ");
+        h = leer.nextInt();
+        System.out.println("Ingrese que minuto es [del 0 al 60]: ");
+        m = leer.nextInt();
+        System.out.println("Ingrese que segundo es [del 0 al 60]: ");
+        s = leer.nextInt();
+        if (h>=0 && h<24 && m>=0 && m<60 && s>=0 && s<60)
+            System.out.println("Hora corrrecta");
+        else 
+            System.out.println("Hora incorrrecta");
+        }
+}
+
+
+
+
+
+

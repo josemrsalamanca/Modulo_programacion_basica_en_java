@@ -1,0 +1,23 @@
+Ejercicio N°21
+Crear un arreglo de largo definido, ingresar los datos y mostrarlos por pantalla. 
+
+package javaapplication26;
+
+import java.util.Scanner;
+
+public class JavaApplication26 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in); 
+        int i;
+        int[] numeros = new int[5];
+        for(i=0; i < 5 ; i++){
+            System.out.println("Ingresar un valor");
+            numeros[i] = leer.nextInt();
+        }      
+        for(i=0; i<5; i++){
+            System.out.println("Los numeros ingresados fueron: "+numeros[i]);
+        }
+    }
+}
+

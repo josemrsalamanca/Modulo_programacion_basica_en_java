@@ -1,0 +1,57 @@
+Ejercicio N°20
+Hacer un programa que simule un cajero bancario, este cajero tendrá una cuenta con un saldo inicial y deberá poder realizar las siguientes operaciones:
+•	Consultar saldo
+•	Realizar un abono o deposito
+•	Realizar giros
+•	Por cada transacción debe indicar el saldo disponible de la cuenta
+•	Las operaciones se deben poder realizar la cantidad de veces que el usuario requiera
+•	Salir del programa
+package javaapplication25;
+import java.util.Scanner;
+public class JavaApplication25 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int clave = 123, cingresada, opcion=0, giro, saldo =500000, depo, k=0;
+       
+        System.out.println("Ingrese clave: ");
+        cingresada = leer.nextInt();
+        if(clave == cingresada){
+            do{
+                System.out.println("Seleccione una opción ");
+                System.out.println("1. Retirar efectivo");
+                System.out.println("2. Depositar");
+                System.out.println("3. Consultar saldo");   
+                opcion = leer.nextInt();
+                switch(opcion){
+                    case 1:
+                        System.out.println("Por favor ingresa la cantidad a retirar");
+                        giro = leer.nextInt();
+                        if (giro <= saldo){
+                            saldo = saldo - giro; 
+                            System.out.println("Su saldo es: "+saldo);
+                        }else{
+                            System.out.println("Fondos insuficientes, su saldo es: "+saldo);    
+                        }
+                    break; 
+                        
+                    case 2:
+                        System.out.println("Por favor ingresa la cantidad a depositar");
+                        depo = leer.nextInt();
+                        saldo = saldo + depo; 
+                        System.out.println("Su saldo actual es: "+saldo);
+                    break;
+                    
+                    default:
+                        System.out.println("Su saldo es: "+saldo);
+                        System.out.println("Para seguir digite 0, para salir digite 6");
+                        opcion = leer.nextInt()
+                    break;                    
+                }
+            }while(opcion!=6);
+    System.out.println("Gracias por usar nuestro cajero");
+
+    }else{
+         System.out.println("La clave es incorrecta");}
+}   
+}

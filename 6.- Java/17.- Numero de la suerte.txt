@@ -1,0 +1,41 @@
+Ejercicio N°17
+
+Realizar un programa que pida ingresar la fecha de nacimiento (día – mes - año) y calcule su número de la suerte. El número de la suerte se calcula sumando el día, mes y año de la fecha de nacimiento y a continuación sumando las cifras obtenidas en la suma. 
+Por ejemplo: Si la fecha de nacimiento es 12/07/1980
+Calculamos el número de la suerte así: 12+7+1980 = 1999 + 1 + 9 + 9 +9=28
+Número de la suerte: 28
+
+
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int dia, mes , ano, suma, n1, n2, n3, n4, ns; 
+        System.out.println("Ingrese día del mes [1-31]: ");
+        dia = leer.nextInt();
+        System.out.println("Ingrese mes en número del [1-12]: ");
+        mes = leer.nextInt();
+        System.out.println("Ingrese año: ");
+        ano = leer.nextInt(); 
+        suma = dia + mes + ano;
+        
+        n1 = suma / 1000;
+        
+        n2 = suma / 100 % 10;
+
+        n3 = suma / 10 % 10;
+
+        n4 = suma % 10;
+       
+        ns = n1 + n2 + n3 + n4;
+        System.out.println("El número de la suerte es: "+ns);         
+    }  
+}
+
+
+
+
+
+

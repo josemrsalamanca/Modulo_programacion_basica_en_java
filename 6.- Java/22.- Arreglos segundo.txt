@@ -1,0 +1,23 @@
+Ejercicio N°22
+
+Crear un arreglo, ingresar los datos y calcular la suma de los valores ingresados.
+package javaapplication26;
+
+import java.util.Scanner;
+
+public class JavaApplication26 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in); 
+        int i, suma = 0;
+        int[] numeros = new int[5];
+        for(i=0; i < 5 ; i++){
+            System.out.println("Ingresar un valor");
+            numeros[i] = leer.nextInt();
+            suma = suma + numeros[i];
+        }
+    System.out.println("La suma es: "+suma);    
+    }
+}
+
+
